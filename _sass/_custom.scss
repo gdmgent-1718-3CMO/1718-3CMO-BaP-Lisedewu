@@ -1,6 +1,9 @@
 /* Navigation
 ---------------------------------------------
 */
+.navbar :horizontal {
+  float: left;
+}
 .navbar a {
     border: none;
 }
@@ -60,4 +63,8 @@ footer {
   &:hover {
     background-color:$mycolor-5; 
   }
+}
+
+.navbar {
+  margin-bottom: 50px;
 }
