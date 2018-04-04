@@ -8,12 +8,6 @@
 
 .navbar a {
   border: none;
-  &:hover {
-    color: $color-white;
-  }
-  &:active {
-    color: $mycolor-4
-  }
 }
 
 /* FOOTER
@@ -88,4 +82,13 @@ footer {
 
 .navbar {
   margin-bottom: 50px;
+}
+
+.navbar nav {
+  &:hover {
+    color: $color-white;
+  }
+  &:active {
+    color: $mycolor-4;
+  }
 }
