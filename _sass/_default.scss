@@ -1,17 +1,20 @@
 // default-styling
-
 body {
     font-family: $myfont-family-base;
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
     letter-spacing: $letter-spacing;
-    
     background-color: $body-bg;
     color: $body-color;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $myfont-family-title;
     font-weight: $font-weight-bold;
 }
@@ -23,36 +26,43 @@ h3 {
     margin-top: 20px;
     margin-top: 20px;
 }
+
 h4 {
     font-weight: $font-weight-bold;
     font-size: 2rem;
     margin-top: 20px;
     margin-top: 20px;
+    color: $color-grey-2;
 }
+
 h5 {
     font-size: 1rem;
     margin-bottom: 20px;
     margin-top: 20px;
+    color: $mycolor-4;
 }
+
 h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
 }
+
 a {
     text-decoration: none;
     color: $body-link;
     border-bottom: dotted 1px $body-link;
-    &:hover{
+    &:hover {
         color: $body-link;
         text-decoration: none;
         border-bottom: solid 1px $body-link;
     }
-    &:active{
+    &:active {
         background-color: $body-link;
         color: $color-white;
     }
-    &:focus{}
+    &:focus {}
 }
+
 blockquote {
     padding-left: 24px;
     border-left: 2px solid $mycolor-4;
@@ -60,51 +70,54 @@ blockquote {
 
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {
-  list-style: none;  
-  margin: 0 0 1em;
-  padding: 0;
-  li {
-    padding-left: 25px;
-    text-indent: -25px;
-    &:before {
-        content:'\2022';
-        color: $mycolor-4;
-        margin-right: 18px;
-    }    
-  }
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    li {
+        padding-left: 25px;
+        text-indent: -25px;
+        &:before {
+            content: '\2022';
+            color: $mycolor-4;
+            margin-right: 18px;
+        }
+    }
 }
 
 //geordende lijstjes met een ander symbool of kleur
 main ol {
-    list-style: none;  
+    list-style: none;
     margin: 0 0 1em;
     padding: 0;
     counter-reset: i 0;
     li {
-      padding-left: 25px;
-      text-indent: -25px;
-      margin-bottom: 0.5rem;
-      &:before {
-        counter-increment: i;
-        content: counter(i);    
-        padding: 3px 6px;
-        margin-right: 5px;
-        border-radius: 5px;
-        background-color: $mycolor-4;
-        color: $color-white;
-        font-family: $myfont-family-title;
-        font-weight: $font-weight-bold;
-      }    
+        padding-left: 25px;
+        text-indent: -25px;
+        margin-bottom: 0.5rem;
+        &:before {
+            counter-increment: i;
+            content: counter(i);
+            padding: 3px 6px;
+            margin-right: 5px;
+            border-radius: 5px;
+            background-color: none;
+            color: $color-white;
+            font-family: $myfont-family-title;
+            font-weight: $font-weight-bold;
+        }
+        &:active {
+            color: white;
+        }
     }
-  }
+}
 
 //forms 
-button, a.btn {
-    
-    &:hover{}
-    &:active{}
-    &:focus{}
+button,
+a.btn {
+    &:hover {}
+    &:active {}
+    &:focus {}
 }
-input[type=text], textarea {
 
-}
+input[type=text],
+textarea {}
