@@ -81,7 +81,7 @@ footer {
 }
 
 .navbar {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .nav-item {
@@ -91,4 +91,14 @@ footer {
   &:active {
     color: $mycolor-4;
   }
+}
+.grotere_tekst {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.grote_tekst {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
