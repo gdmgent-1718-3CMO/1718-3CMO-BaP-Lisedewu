@@ -24,3 +24,15 @@
    # folder: pages/typografie/
   permalink: typografie/
   # fa-icon: icon-info
+
+- name: Fotografie
+  description: Fotografie
+   # folder: pages/fotografie/
+  permalink: fotografie/
+  # fa-icon: icon-info
+
+- name: Print
+  description: Print
+   # folder: pages/print/
+  permalink: print/
+  # fa-icon: icon-info
