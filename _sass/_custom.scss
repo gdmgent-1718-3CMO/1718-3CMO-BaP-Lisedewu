@@ -24,7 +24,7 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Karla', sans-serif;;
 }
 
 .bh-absolute-bottom {
@@ -95,10 +95,21 @@ footer {
 .grotere_tekst {
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .grote_tekst {
   font-size: 18px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footerrow {
+  height: 40px;
+}
+
+.kleine_tekst {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }

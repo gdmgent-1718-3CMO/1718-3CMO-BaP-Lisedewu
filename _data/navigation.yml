@@ -36,3 +36,9 @@
    # folder: pages/print/
   permalink: print/
   # fa-icon: icon-info
+
+- name: Digitaal
+  description: Digitaal
+   # folder: pages/digitaal/
+  permalink: digitaal/
+  # fa-icon: icon-info
